@@ -4,10 +4,21 @@ function face_attribute()
 
 clc; close all; clear all;
 
-% Add the required paths
+% Add the MatConvnet Path to be able to load and execute the VGG CNN model.
+% This should point to the matlab/ folder which contains the scripts which
+% we will be using here
 addpath('../Deep LFSR/CNN_training/matconvnet-1.0-beta23/matlab/');
 
+% Specify the location where the metadata will be stored. This file will
+% contain information extracted from the annotation files provided with the
+% celebA dataset. This file is initially not available but will be created
+% in the first run.
 metadata_filename = 'DATA/metadata.mat';
+
+% Specify the folder where the VGG model is stored
+vgg_model_filename = 'VGG_face_model/vgg-face.mat';
+
+% This specifies the layer from which the features will be extracted
 out_layer = 33;
 
 %--------------------------------------------------------------------------
@@ -16,8 +27,12 @@ out_layer = 33;
 % Setup mat-conv net
 vl_setupnn();
 
+if ~exist(vgg_model_filename,'file')
+    error('Make sure to download the vgg-face.mat model\n');
+end
+
 %--- Load the model and upgrade it to MatConvNet current version.
-model = load('VGGModel/vgg_face.mat') ; net = model.net;
+model = load(vgg_model_filename) ; net = model.net;
 net = vl_simplenn_tidy(net) ;
 
 % --- Remove the last two layers
