@@ -1,0 +1,3 @@
+This folder contains the celebA dataset. Go http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html 
+and follow the instructions to download the whole dataset. This will take a lot since the dataset
+is large. Make sure that the folders Anno/ Eval/ and Img/ and a file README.txt are in this folder.
