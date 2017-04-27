@@ -1,40 +1,79 @@
 5_o_Clock_Shadow CE: 0.0748
-Arched_Eyebrows CE: 0.1598
-Attractive CE: 0.1840
-Bags_Under_Eyes CE: 0.1758
-Bald CE: 0.0117
-Bangs CE: 0.0456
-Big_Lips CE: 0.2189
-Big_Nose CE: 0.1679
-Black_Hair CE: 0.1160
-Blond_Hair CE: 0.0502
-Blurry CE: 0.0521
-Brown_Hair CE: 0.1635
-Bushy_Eyebrows CE: 0.0875
-Chubby CE: 0.0440
-Double_Chin CE: 0.0393
-Eyeglasses CE: 0.0095
-Goatee CE: 0.0372
-Gray_Hair CE: 0.0217
-Heavy_Makeup CE: 0.0966
-High_Cheekbones CE: 0.1334
-Male CE: 0.0182
+
+Arched_Eyebrows  CE: 0.1598
+
+Attractive       CE: 0.1840
+
+Bags_Under_Eyes  CE: 0.1758
+
+Bald             CE: 0.0117
+
+Bangs            CE: 0.0456
+
+Big_Lips         CE: 0.2189
+
+Big_Nose         CE: 0.1679
+
+Black_Hair       CE: 0.1160
+
+Blond_Hair       CE: 0.0502
+
+Blurry           CE: 0.0521
+
+Brown_Hair       CE: 0.1635
+
+Bushy_Eyebrows   CE: 0.0875
+
+Chubby           CE: 0.0440
+
+Double_Chin      CE: 0.0393
+
+Eyeglasses       CE: 0.0095
+
+Goatee           CE: 0.0372
+
+Gray_Hair        CE: 0.0217
+
+Heavy_Makeup     CE: 0.0966
+
+High_Cheekbones  CE: 0.1334
+
+Male             CE: 0.0182
+
 Mouth_Slightly_Open CE: 0.1172
-Mustache CE: 0.0360
-Narrow_Eyes CE: 0.1167
-No_Beard CE: 0.0577
-Oval_Face CE: 0.2826
-Pale_Skin CE: 0.0429
-Pointy_Nose CE: 0.2292
+
+Mustache         CE: 0.0360
+
+Narrow_Eyes      CE: 0.1167 
+
+No_Beard         CE: 0.0577
+
+Oval_Face        CE: 0.2826
+
+Pale_Skin        CE: 0.0429
+
+Pointy_Nose      CE: 0.2292
+
 Receding_Hairline CE: 0.0631
-Rosy_Cheeks CE: 0.0610
-Sideburns CE: 0.0327
-Smiling CE: 0.0852
-Straight_Hair CE: 0.1758
-Wavy_Hair CE: 0.1502
+
+Rosy_Cheeks      CE: 0.0610
+
+Sideburns        CE: 0.0327
+
+Smiling          CE: 0.0852
+
+Straight_Hair    CE: 0.1758
+
+Wavy_Hair        CE: 0.1502
+
 Wearing_Earrings CE: 0.1277
-Wearing_Hat CE: 0.0115
+
+Wearing_Hat      CE: 0.0115
+
 Wearing_Lipstick CE: 0.0747
+
 Wearing_Necklace CE: 0.1209
-Wearing_Necktie CE: 0.0391
-Young CE: 0.1083
+
+Wearing_Necktie  CE: 0.0391
+
+Young            CE: 0.1083
