@@ -59,14 +59,14 @@ net = vl_simplenn_tidy(net) ;
 if ~exist(metadata_filename,'file')
     % Derive the list of train/val images to be considered
     fprintf('Parse the evaluation file ...\n');
-    [img_list, eval] = parse_eval_file('DATASET/CelebA/Eval/list_eval_partition.txt');
+    [img_list, eval] = parse_eval_file('CelebA/Eval/list_eval_partition.txt');
 
     % Put this information as part of the metadata
     metadata.img_list = img_list; 
     metadata.eval     = eval;
     % Get the attributes
     fprintf('Load the attributes ... \n');
-    metadata = get_attributes('DATASET/CelebA/Anno/list_attr_celeba.txt',metadata);
+    metadata = get_attributes('CelebA/Anno/list_attr_celeba.txt',metadata);
 
     % Save the metadata
     save(metadata_filename,'metadata');
